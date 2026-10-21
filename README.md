@@ -10,20 +10,19 @@ This repository documents my learning journey through the VLSIGuru AI Literacy p
 - **Domain:** Physical Design (PD)
 - **Focus:** AI fundamentals, Python basics, and responsible AI usage.
 
-## Weekly Missions
+## Week 01 – Mission Index
 
-### Week 01 – AI Literacy Foundations
-- [Mission 1](w01/mission1.md)
-- [Mission 2](w01/mission2.md)
-- [Mission 3](w01/mission3.md)
-- [Mission 4](w01/mission4.md)
-- [Mission 5](w01/mission5.md)
-- [Mission 6](w01/mission6.md)
-- [Mission 7](w01/mission7.md)
-- [Mission 8](w01/mission8.md)
-- [Mission 9](w01/mission9.md)
-- [Python Practice](w01/python.py)
-- [Final Reflection](w01/Final%20Reflection.md)
+| Mission   | Topic                                                                       | File                                         |
+|-----------|-----------------------------------------------------------------------------|----------------------------------------------|
+| Mission 1 | Finding AI Around Me                                                        | [mission1.md](w01/mission1.md)               |
+| Mission 2 | Relationship between AI, Machine Learning, Deep Learning, and Generative AI | [mission2.md](w01/mission2.md)               |
+| Mission 3 | Traditional Programming, Machine Learning, and Generative AI                | [mission3.md](w01/mission3.md)               |
+| Mission 4 | Understanding how Large Language Models (LLMs) work                         | [mission4.md](w01/mission4.md)               |
+| Mission 5 | Checking AI answers and verifying information                               | [mission5.md](w01/mission5.md)               |
+| Mission 6 | Chatbots, RAG, Tools, and AI Agents                                         | [mission6.md](w01/mission6.md)               |
+| Mission 7 | AI Computing Hardware: CPU, GPU, NPU, and Memory                            | [mission7.md](w01/mission7.md)               |
+| Mission 8 | Applying AI to VLSI Physical Design                                         | [mission8.md](w01/mission8.md)               |
+| Mission 9 | Creating My Own Rules for Responsible AI Use                                | [mission9.md](w01/mission9.md)               |
 
 
 ## Skills I'm Developing
