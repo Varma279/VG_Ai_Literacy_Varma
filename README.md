@@ -50,7 +50,7 @@ The objective is to understand artificial intelligence, machine learning, genera
 
 ## AI Usage Declaration
 
-AI tools used: ChatGPT and other tools, if applicable.
+AI tools used: ChatGPT, Gemini, Claude and other tools, if applicable.
 
 Purpose: Learning, explanations, brainstorming, and comparison.
 
