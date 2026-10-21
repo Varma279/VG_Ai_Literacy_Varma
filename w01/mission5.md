@@ -27,5 +27,5 @@ My test showed that the AI provided accurate historical information for this par
 ## 6. Lesson Learned
 
 I learned that AI can provide useful explanations, but its answers should not automatically be treated as facts. Checking reliable sources helps confirm information and reduces the risk of accepting incorrect claims.
-```
+
 
