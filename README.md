@@ -1,57 +1,41 @@
-# vlsiguru-ai-literacy-varma
 
-# VLSIGuru AI Literacy – Week 01
+# VLSIGuru AI Literacy – Varma
 
-## About This Project
+## About Me
+Hi, I'm Varma, an Electronics and Communication Engineering student interested in VLSI Physical Design and Artificial Intelligence.
 
-This repository documents my learning journey through the VLSIGuru AI Literacy Layer program.
+This repository documents my learning journey through the VLSIGuru AI Literacy program.
 
-The objective is to understand artificial intelligence, machine learning, generative AI, and AI agents while developing the ability to verify AI-generated information and make responsible engineering decisions.
+## My Track
+- **Domain:** Physical Design (PD)
+- **Focus:** AI fundamentals, Python basics, and responsible AI usage.
 
-## Student Information
+## Weekly Missions
 
-- **Name:** Varma Mudunuri
-- **Track:** Physical Design (PD)
-- **Program:** VLSIGuru AI Literacy Layer
-- **Duration:** 16 Weeks
+### Week 01 – AI Literacy Foundations
+- [Mission 1](w01/mission1.md)
+- [Mission 2](w01/mission2.md)
+- [Mission 3](w01/mission3.md)
+- [Mission 4](w01/mission4.md)
+- [Mission 5](w01/mission5.md)
+- [Mission 6](w01/mission6.md)
+- [Mission 7](w01/mission7.md)
+- [Mission 8](w01/mission8.md)
+- [Mission 9](w01/mission9.md)
+- [Python Practice](w01/python.py)
+- [Final Reflection](w01/Final%20Reflection.md)
 
-## Weekly Progress
 
-- [ ] Week 01 – The AI Landscape
-- [ ] Week 02
-- [ ] Week 03
-- [ ] Week 04
-- [ ] Week 05
-- [ ] Week 06
-- [ ] Week 07
-- [ ] Week 08
-- [ ] Week 09
-- [ ] Week 10
-- [ ] Week 11
-- [ ] Week 12
-- [ ] Week 13
-- [ ] Week 14
-- [ ] Week 15
-- [ ] Week 16
+## Skills I'm Developing
+- Understanding AI and Machine Learning fundamentals.
+- Using AI tools responsibly.
+- Verifying AI-generated information.
+- Learning Python programming.
+- Exploring AI applications in Physical Design.
 
-## Repository Structure
+## My Goal
+My goal is to understand how AI can support engineering tasks while developing the technical knowledge needed to verify AI-generated results independently.
 
-- `w01/` – Week 01 missions, Python practice, and final reflection.
-- `w02/` – Week 02 learning activities.
-- `w03/` – Week 03 learning activities.
+## AI Usage
+I use AI tools for learning, explanations, and brainstorming. I review the information and verify important claims before including them in my work.
 
-## Learning Goals
-
-- Understand AI fundamentals.
-- Learn to use AI tools responsibly.
-- Verify AI-generated information using reliable sources.
-- Develop Python programming fundamentals.
-- Improve critical thinking and engineering documentation.
-
-## AI Usage Declaration
-
-AI tools used: ChatGPT, Gemini, Claude and other tools, if applicable.
-
-Purpose: Learning, explanations, brainstorming, and comparison.
-
-I will review my work and verify important factual and technical claims before submission.
