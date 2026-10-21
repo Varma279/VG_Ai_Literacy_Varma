@@ -1,4 +1,4 @@
-# Week 01 — Reflection
+# Week 01: Reflection
 
 ### 1. What is the most useful thing I learned this week?
 
