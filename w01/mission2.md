@@ -1,6 +1,6 @@
 # Explain AI, ML, Deep Learning, and GenAI with One Diagram
 
-![AI, ML, Deep Learning, and Generative AI Diagram](ai-ml-dl-genai-diagram.png)
+[AI Diagram](./ai-ml-dl-genai-diagram.png)
 
 1) **AI:** The broad idea of making machines do things that normally need human intelligence, like planning, recognising or deciding. It includes old rule-based systems too. Example: a chess program that searches moves using hand-written rules and scoring.
 
