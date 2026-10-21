@@ -1,3 +1,4 @@
+4: Ask an AI how an LLM works, then check its claims with reliable sources
 # Mission 4: Make AI Explain Itself, Then Test It
 
 ## 1. Asking AI to Explain How an LLM Works
