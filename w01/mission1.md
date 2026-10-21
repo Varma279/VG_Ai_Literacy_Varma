@@ -1,4 +1,4 @@
-1 — Find AI around you
+1.  Find AI around you
 
 # Mission 1: Find AI Around Me
 
