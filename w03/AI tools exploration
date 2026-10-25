@@ -1,119 +1,116 @@
-# AI Tools Exploration
+# Exploring AI Assistants for Technical Learning
 
-## Overview
+## 1. Overview
 
-This activity explores how AI assistants can support technical education, research, and programming. The objective is to practise writing effective prompts, compare AI-generated explanations, and verify technical information using reliable sources.
+AI assistants can make technical subjects easier to approach by breaking down complex ideas, providing examples, and suggesting ways to practise. However, a well-written answer is not necessarily a correct one. This exploration focuses on selecting suitable AI tools, improving instructions, comparing responses, and checking technical information before using it.
 
-## 1. AI Platforms Explored
+## 2. AI Platforms and Their Applications
 
-| Tool                                         | What It Offers                                                           | Example Use in Engineering                         |
-| -------------------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------- |
-| [ChatGPT](https://chatgpt.com/)              | Interactive explanations, coding support, and problem-solving assistance | Learning Verilog and understanding Python errors   |
-| [Google Gemini](https://gemini.google.com/)  | AI-assisted research, explanations, and learning support                 | Studying machine learning concepts                 |
-| [Claude](https://claude.ai/)                 | Document analysis, writing, and programming assistance                   | Understanding scripts and reviewing code logic     |
-| [NotebookLM](https://notebooklm.google.com/) | Source-based study assistance and summaries                              | Revising concepts using uploaded learning material |
-| [Perplexity](https://www.perplexity.ai/)     | Web research and source discovery                                        | Finding documentation for engineering software     |
+| Platform                                     | How It Can Help                                                                    | Important Consideration                                                                     |
+| -------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| [ChatGPT](https://chatgpt.com/)              | Learn unfamiliar concepts through examples, explanations, and follow-up questions. | Check important technical statements against trusted references.                            |
+| [Google Gemini](https://gemini.google.com/)  | Explore alternative explanations and approaches to a technical question.           | Ensure the response addresses the question accurately rather than just sounding convincing. |
+| [Claude](https://claude.ai/)                 | Work through detailed explanations, documents, and programming questions.          | Review technical details and test any suggested code.                                       |
+| [NotebookLM](https://notebooklm.google.com/) | Study selected reference materials and locate supporting passages.                 | Read the original passages to ensure they support the generated answer.                     |
+| [Perplexity](https://www.perplexity.ai/)     | Discover information and locate potentially useful research sources.               | Prefer original research and official documentation over unsupported summaries.             |
 
-Each platform has different strengths. The best choice depends on the task, the available features, and the reliability of its output.
+### Important Prompting Concepts
 
-## 2. Improving the Quality of Prompts
+* **Instruction:** The specific task assigned to an AI assistant.
+* **Background:** Information about the topic, situation, or learner that helps define the task.
+* **Requirements:** Conditions the answer must satisfy, such as a word limit or technical scope.
+* **Response structure:** The preferred arrangement of information, such as a comparison table or step-by-step explanation.
+* **Fact-checking:** Examining evidence to determine whether a statement is supported.
 
-A prompt becomes more useful when it specifies the task, relevant context, the expected level of explanation, and the desired output.
+## 3. Developing a Better Prompt
 
-### Example 1: Understanding Machine Learning
+For this experiment, the selected topic is understanding the role of Yosys in an open-source digital design workflow.
 
-**Basic prompt**
+### Stage 1 — Start with the topic
 
-Explain machine learning.
+> What is Yosys?
 
-**Refined prompt**
+This asks a general question but does not indicate how detailed the explanation should be.
 
-Explain supervised learning for an electronics engineering student who is new to AI. Include a semiconductor-related example, describe features and labels, and finish with three practice questions.
+### Stage 2 — Identify the learning goal
 
-**What to examine**
+> I am learning digital design and VLSI. Explain the purpose of Yosys to someone who is new to synthesis.
 
-Compare the two responses for clarity, technical detail, and relevance to the requested learning level.
+Adding the learning context makes the intended explanation more specific.
 
-### Example 2: Investigating an Engineering Tool
+### Stage 3 — Define the expected answer
 
-**Basic prompt**
+> I am learning digital design and VLSI. Explain Yosys in beginner-friendly language. Describe its purpose, the type of input it processes, and the output it can produce during synthesis. Include a simple example of where it fits in a digital design workflow. Distinguish general capabilities from details that require checking in the official documentation.
 
-What is OpenROAD?
+The final version establishes the subject, learner level, required information, and verification expectations.
 
-**Refined prompt**
+**What to learn from this experiment:** Compare the responses produced by the three prompts. Note whether the additional context and requirements make the final explanation more relevant and easier to understand.
 
-Explain how OpenROAD fits into an open-source ASIC physical-design workflow. Describe its purpose, typical inputs and outputs, and its role in floorplanning, placement, clock-tree synthesis, routing, and timing analysis. Identify which details should be confirmed using official documentation.
+## 4. Evaluating Responses from Different Assistants
 
-**What to examine**
+To compare AI tools fairly, give both assistants the same question and examine their responses using identical criteria.
 
-Check whether the refined response provides a more focused explanation and whether its technical claims agree with the tool's documentation.
+**Test question:**
 
-### Example 3: Practising Python
+> Explain the difference between logic synthesis and placement in a digital IC design flow. Use simple language, provide one example of each, and keep the answer within five bullet points.
 
-**Basic prompt**
+| Evaluation Category             | First AI Assistant                  | Second AI Assistant                 |
+| ------------------------------- | ----------------------------------- | ----------------------------------- |
+| Clarity of explanation          | Add your observation after testing. | Add your observation after testing. |
+| Correct use of terminology      | Record your findings.               | Record your findings.               |
+| Quality of examples             | Note whether the example helped.    | Note whether the example helped.    |
+| Claims needing further checking | Identify any unclear statements.    | Identify any unclear statements.    |
 
-Teach me Python.
+**Comparison summary:** After completing the test, describe which explanation helped you more and why. Mention any differences in technical detail or accuracy that you discovered.
 
-**Refined prompt**
+*Note: Complete this comparison after actually testing both assistants; the table itself does not establish that either tool has been evaluated.*
 
-Create a beginner-level Python exercise with a problem statement, sample input and output, and test cases. Give hints first instead of revealing the complete solution immediately.
+## 5. Checking a Technical Statement
 
-**What to examine**
+An AI-generated statement becomes more trustworthy when its meaning can be confirmed using an authoritative source.
 
-Determine whether the exercise encourages independent problem-solving and matches your current learning progress.
+**Statement selected:** Yosys is an open-source framework used for synthesising digital hardware designs.
 
-## 3. Comparing AI Responses
+**References for investigation:**
 
-The same technical question can be submitted to two AI assistants to compare their explanations.
+* [Yosys Official Documentation](https://yosyshq.readthedocs.io/projects/yosys/en/latest/)
+* [Yosys GitHub Repository](https://github.com/YosysHQ/yosys)
 
-**Question:** What is the difference between classification and regression?
+### How to verify it
 
-| Evaluation Criteria | Questions to Consider                                      |
-| ------------------- | ---------------------------------------------------------- |
-| Explanation         | Are the definitions easy to understand?                    |
-| Examples            | Does each tool provide an appropriate example?             |
-| Accuracy            | Are the statements technically correct?                    |
-| Completeness        | Is any important information missing?                      |
-| Evidence            | Can the explanations be checked against a reliable source? |
+1. Visit the official documentation or project repository.
+2. Find the project overview or introductory description.
+3. Identify what the project says about its purpose and synthesis capabilities.
+4. Compare the source description with the statement being checked.
+5. Record the page or section you consulted and explain what the evidence establishes.
 
-**Comparison results**
+**Verification record**
 
-After testing two tools, record which response was easier to understand, identify any differences, and note whether you found any incorrect or unsupported claims.
+* **Source section:** Fill in after reviewing the documentation.
+* **Outcome:** Supported, partly supported, or not supported.
+* **Evidence:** Describe the information found in the source.
+* **Conclusion:** Explain whether the original statement accurately represents the documented purpose of Yosys.
 
-## 4. Verifying Technical Information
+This record should be completed only after the source has been examined.
 
-AI-generated information should be checked before it is used in assignments or engineering work.
+## 6. Guidelines for Using AI in Engineering
 
-**Claim to investigate:** Classification predicts categories, while regression estimates numerical values.
+AI tools can help learners investigate unfamiliar commands, understand code, generate practice questions, and organise technical notes. They should complement practical experimentation and independent study rather than replace them.
 
-**Reference:** [Google Machine Learning Crash Course — Classification](https://developers.google.com/machine-learning/crash-course/classification)
+When applying AI to VLSI-related work:
 
-**Verification steps**
+* Confirm commands and tool capabilities using the documentation for the relevant version.
+* Understand generated scripts before executing them.
+* Test outputs and investigate errors rather than assuming the generated solution is correct.
+* Keep confidential RTL, proprietary design files, restricted manuals, and sensitive project information away from public AI services unless their use is explicitly permitted.
+* Clearly distinguish personal experiments from examples suggested by an AI assistant.
 
-1. Read the relevant section of the Google learning resource.
-2. Compare its explanation with the AI-generated response.
-3. Check whether the examples correctly represent the concepts.
-4. Write a short conclusion based on the evidence.
+## 7. Learning Outcome
 
-**Verification outcome:** Record whether the source supports the claim and explain what you learned from the comparison.
+This exploration highlights the importance of giving AI tools clear instructions, examining alternative explanations, and checking technical claims against evidence.
 
-## 5. Applying AI to Engineering Learning
+The approach I want to follow is:
 
-AI assistants can help explain unfamiliar concepts, generate practice questions, suggest debugging approaches, and organise technical research.
+**Define the question → Provide context → Examine the answer → Verify the evidence → Explain the result independently.**
 
-For example, an AI assistant may help explain an OpenROAD command or suggest ways to investigate a script. However, the output must be checked against the installed tool version and official documentation before it is used.
-
-Confidential RTL, proprietary design information, restricted EDA manuals, and sensitive project files should not be uploaded to public AI services unless the relevant policies explicitly allow it.
-
-## 6. Main Lessons
-
-* Specific prompts help produce more relevant answers.
-* Adding context and constraints improves the focus of a response.
-* Comparing different AI tools can reveal differences in explanation and detail.
-* Reliable documentation is essential for checking technical claims.
-* Generated code should be reviewed and tested before execution.
-* Responsibility for the final answer remains with the learner.
-
-## 7. Next Steps
-
-I will continue practising prompt design, use AI-generated exercises to strengthen my Python skills, and check technical explanations against trustworthy references. I also plan to explore how AI can support semiconductor physical-design learning while maintaining independent understanding of the tools and workflows involved.
+Using this process can make AI a more effective learning partner while helping me develop the technical judgement needed for engineering tasks.
