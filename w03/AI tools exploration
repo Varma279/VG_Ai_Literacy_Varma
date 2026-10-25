@@ -1,116 +1,117 @@
-# Exploring AI Assistants for Technical Learning
+# AI Tools Exploration
 
-## 1. Overview
+## 1. Exploring AI for Technical Learning
 
-AI assistants can make technical subjects easier to approach by breaking down complex ideas, providing examples, and suggesting ways to practise. However, a well-written answer is not necessarily a correct one. This exploration focuses on selecting suitable AI tools, improving instructions, comparing responses, and checking technical information before using it.
+AI assistants can help learners understand difficult concepts, investigate unfamiliar tools, and practise programming. However, their answers should be treated as information to examine rather than facts to accept automatically.
 
-## 2. AI Platforms and Their Applications
+The purpose of this activity is to explore different AI platforms, improve the way questions are asked, and learn how to check technical information before using it.
 
-| Platform                                     | How It Can Help                                                                    | Important Consideration                                                                     |
-| -------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| [ChatGPT](https://chatgpt.com/)              | Learn unfamiliar concepts through examples, explanations, and follow-up questions. | Check important technical statements against trusted references.                            |
-| [Google Gemini](https://gemini.google.com/)  | Explore alternative explanations and approaches to a technical question.           | Ensure the response addresses the question accurately rather than just sounding convincing. |
-| [Claude](https://claude.ai/)                 | Work through detailed explanations, documents, and programming questions.          | Review technical details and test any suggested code.                                       |
-| [NotebookLM](https://notebooklm.google.com/) | Study selected reference materials and locate supporting passages.                 | Read the original passages to ensure they support the generated answer.                     |
-| [Perplexity](https://www.perplexity.ai/)     | Discover information and locate potentially useful research sources.               | Prefer original research and official documentation over unsupported summaries.             |
+## 2. AI Tools and Their Applications
 
-### Important Prompting Concepts
+| AI Platform | Potential Application | Verification Approach |
+|---|---|---|
+| [ChatGPT](https://chatgpt.com/) | Breaking down complex topics and practising programming concepts. | Compare technical explanations with official documentation. |
+| [Gemini](https://gemini.google.com/) | Exploring alternative explanations and learning approaches. | Check terminology and factual accuracy. |
+| [Claude](https://claude.ai/) | Understanding lengthy explanations, documents, and code. | Review the reasoning and test suggested code. |
+| [NotebookLM](https://notebooklm.google.com/) | Studying selected documents and asking questions about their contents. | Examine the referenced passages in the original sources. |
+| [Perplexity](https://www.perplexity.ai/) | Discovering technical references and researching unfamiliar topics. | Follow citations to original documentation or research. |
 
-* **Instruction:** The specific task assigned to an AI assistant.
-* **Background:** Information about the topic, situation, or learner that helps define the task.
-* **Requirements:** Conditions the answer must satisfy, such as a word limit or technical scope.
-* **Response structure:** The preferred arrangement of information, such as a comparison table or step-by-step explanation.
-* **Fact-checking:** Examining evidence to determine whether a statement is supported.
+### Concepts to Understand
 
-## 3. Developing a Better Prompt
+- **Prompt design:** Writing instructions that clearly communicate the task.
+- **Context:** Providing relevant background so the response fits the situation.
+- **Constraints:** Defining requirements such as length, difficulty, and technical scope.
+- **Response format:** Specifying how information should be presented.
+- **Source verification:** Checking whether reliable evidence supports a statement.
 
-For this experiment, the selected topic is understanding the role of Yosys in an open-source digital design workflow.
+## 3. Experiment: Improving a Technical Question
 
-### Stage 1 — Start with the topic
+For this exercise, I selected Yosys, an open-source tool associated with digital hardware synthesis.
 
-> What is Yosys?
+### First attempt
 
-This asks a general question but does not indicate how detailed the explanation should be.
+> Tell me about Yosys.
 
-### Stage 2 — Identify the learning goal
+This question leaves the expected depth and learning objective unspecified.
 
-> I am learning digital design and VLSI. Explain the purpose of Yosys to someone who is new to synthesis.
+### Second attempt
 
-Adding the learning context makes the intended explanation more specific.
+> Explain Yosys to an electronics student who is beginning to learn VLSI synthesis.
 
-### Stage 3 — Define the expected answer
+Adding the learner's background makes the request more focused.
 
-> I am learning digital design and VLSI. Explain Yosys in beginner-friendly language. Describe its purpose, the type of input it processes, and the output it can produce during synthesis. Include a simple example of where it fits in a digital design workflow. Distinguish general capabilities from details that require checking in the official documentation.
+### Final attempt
 
-The final version establishes the subject, learner level, required information, and verification expectations.
+> I am learning digital design and open-source VLSI tools. Explain the purpose of Yosys in simple language. Describe its main inputs, outputs, and role in a synthesis workflow. Include a small illustrative example and identify the details I should confirm using the official documentation.
 
-**What to learn from this experiment:** Compare the responses produced by the three prompts. Note whether the additional context and requirements make the final explanation more relevant and easier to understand.
+The final prompt provides a clear objective, relevant background, specific requirements, and a request for verification.
 
-## 4. Evaluating Responses from Different Assistants
+**Observation:** After testing these prompts, record how the answers differ in clarity, relevance, and technical detail.
 
-To compare AI tools fairly, give both assistants the same question and examine their responses using identical criteria.
+## 4. Comparing AI-Generated Explanations
 
-**Test question:**
+Different AI assistants may explain the same concept in different ways. Using an identical question helps make the comparison more meaningful.
 
-> Explain the difference between logic synthesis and placement in a digital IC design flow. Use simple language, provide one example of each, and keep the answer within five bullet points.
+**Question for both tools:**
 
-| Evaluation Category             | First AI Assistant                  | Second AI Assistant                 |
-| ------------------------------- | ----------------------------------- | ----------------------------------- |
-| Clarity of explanation          | Add your observation after testing. | Add your observation after testing. |
-| Correct use of terminology      | Record your findings.               | Record your findings.               |
-| Quality of examples             | Note whether the example helped.    | Note whether the example helped.    |
-| Claims needing further checking | Identify any unclear statements.    | Identify any unclear statements.    |
+> Explain the difference between logic synthesis and placement in an ASIC design flow. Use simple language and provide one example of each.
 
-**Comparison summary:** After completing the test, describe which explanation helped you more and why. Mention any differences in technical detail or accuracy that you discovered.
+| Assessment Point | AI Tool 1 | AI Tool 2 |
+|---|---|---|
+| Explanation clarity | Record after testing. | Record after testing. |
+| Accuracy of terminology | Record after checking. | Record after checking. |
+| Usefulness of examples | Record your observation. | Record your observation. |
+| Information requiring verification | Identify any uncertain claims. | Identify any uncertain claims. |
 
-*Note: Complete this comparison after actually testing both assistants; the table itself does not establish that either tool has been evaluated.*
+**My findings:** Complete this section after using both tools. Explain which response was more helpful and provide a reason based on your observations.
 
-## 5. Checking a Technical Statement
+## 5. Verifying a Claim About Yosys
 
-An AI-generated statement becomes more trustworthy when its meaning can be confirmed using an authoritative source.
+AI-generated technical information should be checked against reliable references before it is used in engineering work.
 
-**Statement selected:** Yosys is an open-source framework used for synthesising digital hardware designs.
+**Claim under investigation:**
 
-**References for investigation:**
+Yosys is an open-source framework used for digital hardware synthesis.
 
-* [Yosys Official Documentation](https://yosyshq.readthedocs.io/projects/yosys/en/latest/)
-* [Yosys GitHub Repository](https://github.com/YosysHQ/yosys)
+**Official references:**
 
-### How to verify it
+- [Yosys Documentation](https://yosyshq.readthedocs.io/projects/yosys/en/latest/)
+- [Yosys Source Repository](https://github.com/YosysHQ/yosys)
 
-1. Visit the official documentation or project repository.
-2. Find the project overview or introductory description.
-3. Identify what the project says about its purpose and synthesis capabilities.
-4. Compare the source description with the statement being checked.
-5. Record the page or section you consulted and explain what the evidence establishes.
+### Verification Procedure
 
-**Verification record**
+1. Open the official documentation or source repository.
+2. Locate the project overview or introductory description.
+3. Examine how the project describes its purpose.
+4. Compare the documented capabilities with the claim.
+5. Record the section reviewed and summarise the supporting evidence.
 
-* **Source section:** Fill in after reviewing the documentation.
-* **Outcome:** Supported, partly supported, or not supported.
-* **Evidence:** Describe the information found in the source.
-* **Conclusion:** Explain whether the original statement accurately represents the documented purpose of Yosys.
+**Verification result**
 
-This record should be completed only after the source has been examined.
+- **Section reviewed:** To be completed after checking the source.
+- **Finding:** Supported, partly supported, or unsupported.
+- **Evidence:** Record what the documentation establishes.
+- **Conclusion:** Explain whether the claim accurately reflects the source.
 
-## 6. Guidelines for Using AI in Engineering
+This section should be completed after the verification has actually been performed.
 
-AI tools can help learners investigate unfamiliar commands, understand code, generate practice questions, and organise technical notes. They should complement practical experimentation and independent study rather than replace them.
+## 6. Responsible AI Usage
 
-When applying AI to VLSI-related work:
+AI assistance can make technical learning more efficient, but engineering decisions still require independent judgement.
 
-* Confirm commands and tool capabilities using the documentation for the relevant version.
-* Understand generated scripts before executing them.
-* Test outputs and investigate errors rather than assuming the generated solution is correct.
-* Keep confidential RTL, proprietary design files, restricted manuals, and sensitive project information away from public AI services unless their use is explicitly permitted.
-* Clearly distinguish personal experiments from examples suggested by an AI assistant.
+- Confirm commands and features using the relevant tool documentation.
+- Review generated code before running it.
+- Test suggested solutions and investigate unexpected results.
+- Avoid sharing confidential RTL, proprietary design files, restricted manuals, or sensitive project information with public AI services unless explicitly permitted.
+- Distinguish between examples generated by AI and experiments personally performed.
 
-## 7. Learning Outcome
+## 7. Key Takeaways
 
-This exploration highlights the importance of giving AI tools clear instructions, examining alternative explanations, and checking technical claims against evidence.
+- Providing context helps AI tools understand the intended task.
+- Specific requirements can make responses more useful.
+- Comparing explanations can reveal differences in clarity and detail.
+- Reliable sources are necessary to validate important technical claims.
+- Generated code requires review and testing before practical use.
+- AI should support independent learning rather than replace it.
 
-The approach I want to follow is:
-
-**Define the question → Provide context → Examine the answer → Verify the evidence → Explain the result independently.**
-
-Using this process can make AI a more effective learning partner while helping me develop the technical judgement needed for engineering tasks.
+**Learning approach:** Define the problem, ask a focused question, examine the response, verify the evidence, and explain the result in my own words.
