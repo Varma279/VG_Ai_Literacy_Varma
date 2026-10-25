@@ -1,127 +1,119 @@
-# Exploring Practical AI Tools
+# AI Tools Exploration
 
-## 1. Purpose of This Exploration
+## Overview
 
-Artificial intelligence tools can support technical learning, research, programming, and problem-solving. During this activity, the focus is on understanding how different AI assistants can be used effectively, how prompts influence their responses, and why important information must be verified before relying on it.
+This activity explores how AI assistants can support technical education, research, and programming. The objective is to practise writing effective prompts, compare AI-generated explanations, and verify technical information using reliable sources.
 
-## 2. Tools and Their Potential Uses
+## 1. AI Platforms Explored
 
-| AI Tool                                      | Main Capabilities                                                                       | Possible Engineering Application                                       |
-| -------------------------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [ChatGPT](https://chatgpt.com/)              | Concept explanations, coding assistance, structured responses, and interactive learning | Understanding Verilog concepts or debugging a Python script            |
-| [Google Gemini](https://gemini.google.com/)  | Information exploration, explanations, and learning support                             | Exploring introductory machine learning topics                         |
-| [Claude](https://claude.ai/)                 | Document analysis, detailed explanations, and programming support                       | Reviewing a script and understanding its logic                         |
-| [NotebookLM](https://notebooklm.google.com/) | Answering questions using supplied sources and helping locate relevant passages         | Studying ML notes and checking explanations against reference material |
-| [Perplexity](https://www.perplexity.ai/)     | Web research and discovering relevant references                                        | Finding official documentation for open-source engineering tools       |
+| Tool                                         | What It Offers                                                           | Example Use in Engineering                         |
+| -------------------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------- |
+| [ChatGPT](https://chatgpt.com/)              | Interactive explanations, coding support, and problem-solving assistance | Learning Verilog and understanding Python errors   |
+| [Google Gemini](https://gemini.google.com/)  | AI-assisted research, explanations, and learning support                 | Studying machine learning concepts                 |
+| [Claude](https://claude.ai/)                 | Document analysis, writing, and programming assistance                   | Understanding scripts and reviewing code logic     |
+| [NotebookLM](https://notebooklm.google.com/) | Source-based study assistance and summaries                              | Revising concepts using uploaded learning material |
+| [Perplexity](https://www.perplexity.ai/)     | Web research and source discovery                                        | Finding documentation for engineering software     |
 
-These tools have overlapping capabilities, but their usefulness depends on the task, the available features, and the quality of the information provided. Their responses should not be treated as equally reliable for every technical question.
+Each platform has different strengths. The best choice depends on the task, the available features, and the reliability of its output.
 
-## 3. Experimenting with Prompt Design
+## 2. Improving the Quality of Prompts
 
-A prompt describes the task an AI tool should perform. Including the subject, the learner's current level, relevant constraints, and the expected response format can make the output more useful.
+A prompt becomes more useful when it specifies the task, relevant context, the expected level of explanation, and the desired output.
 
-### Experiment A — Making a Question More Specific
+### Example 1: Understanding Machine Learning
 
-**Initial prompt:**
+**Basic prompt**
 
-> Explain machine learning.
+Explain machine learning.
 
-**Improved prompt:**
+**Refined prompt**
 
-> Explain supervised learning to an electronics engineering student who is new to AI. Use a simple semiconductor-related example, explain the difference between features and labels, and finish with three questions to test my understanding.
+Explain supervised learning for an electronics engineering student who is new to AI. Include a semiconductor-related example, describe features and labels, and finish with three practice questions.
 
-**Observation to record:**
+**What to examine**
 
-The revised prompt provides a clearer learning objective and asks for a particular example and output structure. After testing both prompts, compare their explanations for clarity, relevance, and technical accuracy.
+Compare the two responses for clarity, technical detail, and relevance to the requested learning level.
 
-### Experiment B — Learning a Technical Concept
+### Example 2: Investigating an Engineering Tool
 
-**Initial prompt:**
+**Basic prompt**
 
-> Explain OpenROAD.
+What is OpenROAD?
 
-**Improved prompt:**
+**Refined prompt**
 
-> Describe the purpose of OpenROAD in an open-source ASIC physical-design flow. Explain its main role, typical inputs and outputs, and how it relates to floorplanning, placement, clock-tree synthesis, routing, and timing analysis. Use beginner-friendly language and identify any details that should be checked in the official documentation.
+Explain how OpenROAD fits into an open-source ASIC physical-design workflow. Describe its purpose, typical inputs and outputs, and its role in floorplanning, placement, clock-tree synthesis, routing, and timing analysis. Identify which details should be confirmed using official documentation.
 
-**Observation to record:**
+**What to examine**
 
-The second prompt narrows the discussion to physical design and identifies the information needed. Verify the tool's actual capabilities and workflow against its documentation instead of assuming that every requested feature is supported in the same way.
+Check whether the refined response provides a more focused explanation and whether its technical claims agree with the tool's documentation.
 
-### Experiment C — Requesting a Structured Answer
+### Example 3: Practising Python
 
-**Initial prompt:**
+**Basic prompt**
 
-> Help me learn Python.
+Teach me Python.
 
-**Improved prompt:**
+**Refined prompt**
 
-> Prepare a short Python practice exercise for a beginner. Include the problem statement, a small example input and output, hints, and test cases. Do not reveal the complete solution until I have attempted the problem.
+Create a beginner-level Python exercise with a problem statement, sample input and output, and test cases. Give hints first instead of revealing the complete solution immediately.
 
-**Observation to record:**
+**What to examine**
 
-The revised prompt encourages active practice instead of simply receiving an answer. Evaluate whether the exercise matches your current CS50P progress and whether you can explain your solution independently.
+Determine whether the exercise encourages independent problem-solving and matches your current learning progress.
 
-## 4. Comparing AI Explanations
+## 3. Comparing AI Responses
 
-A useful way to evaluate AI assistants is to give two tools the same technical question and compare their answers against a trusted reference.
+The same technical question can be submitted to two AI assistants to compare their explanations.
 
-**Question selected:**
+**Question:** What is the difference between classification and regression?
 
-> What is the difference between classification and regression in machine learning?
+| Evaluation Criteria | Questions to Consider                                      |
+| ------------------- | ---------------------------------------------------------- |
+| Explanation         | Are the definitions easy to understand?                    |
+| Examples            | Does each tool provide an appropriate example?             |
+| Accuracy            | Are the statements technically correct?                    |
+| Completeness        | Is any important information missing?                      |
+| Evidence            | Can the explanations be checked against a reliable source? |
 
-| Comparison Point   | What to Examine                                                 |
-| ------------------ | --------------------------------------------------------------- |
-| Definition         | Does each tool explain the difference correctly?                |
-| Examples           | Are the examples appropriate for each type of task?             |
-| Clarity            | Which response is easier for a beginner to understand?          |
-| Technical accuracy | Are there unsupported statements or misleading simplifications? |
-| Verification       | Can the main claims be confirmed using reliable documentation?  |
+**Comparison results**
 
-**My comparison:**
-After running the same prompt through two AI tools, record which explanation was more understandable, what differences you noticed, and whether either response contained an error or missing detail.
+After testing two tools, record which response was easier to understand, identify any differences, and note whether you found any incorrect or unsupported claims.
 
-## 5. Checking an AI-Generated Claim
+## 4. Verifying Technical Information
 
-AI-generated answers may sound convincing even when a statement is incomplete or incorrect. Checking important claims against primary sources is therefore an essential part of technical learning.
+AI-generated information should be checked before it is used in assignments or engineering work.
 
-**Claim selected for verification:**
+**Claim to investigate:** Classification predicts categories, while regression estimates numerical values.
 
-> Classification models predict categories, whereas regression models estimate numerical values.
+**Reference:** [Google Machine Learning Crash Course — Classification](https://developers.google.com/machine-learning/crash-course/classification)
 
-**Reference used:**
+**Verification steps**
 
-Google's Machine Learning Crash Course provides introductory material on classification and related evaluation concepts.
+1. Read the relevant section of the Google learning resource.
+2. Compare its explanation with the AI-generated response.
+3. Check whether the examples correctly represent the concepts.
+4. Write a short conclusion based on the evidence.
 
-Reference: [Google ML Crash Course — Classification](https://developers.google.com/machine-learning/crash-course/classification)
+**Verification outcome:** Record whether the source supports the claim and explain what you learned from the comparison.
 
-**Verification process:**
+## 5. Applying AI to Engineering Learning
 
-1. Read the relevant section of the reference.
-2. Compare its explanation with the AI-generated answer.
-3. Check whether the examples match the definitions.
-4. Note any differences or unsupported statements.
+AI assistants can help explain unfamiliar concepts, generate practice questions, suggest debugging approaches, and organise technical research.
 
-**Conclusion to record:**
-Write whether the reference supports the claim and briefly explain what you learned. Make sure the conclusion reflects the material you actually reviewed.
+For example, an AI assistant may help explain an OpenROAD command or suggest ways to investigate a script. However, the output must be checked against the installed tool version and official documentation before it is used.
 
-## 6. Using AI as a Learning Assistant
+Confidential RTL, proprietary design information, restricted EDA manuals, and sensitive project files should not be uploaded to public AI services unless the relevant policies explicitly allow it.
 
-AI tools are most useful when they help develop understanding rather than replace independent thinking. They can explain unfamiliar concepts, suggest practice problems, identify possible coding mistakes, and organise research questions.
+## 6. Main Lessons
 
-For engineering tasks, generated answers and code still require careful review. For example, an AI-generated script related to a physical-design flow should be checked against the installed tool version, its documentation, and the intended input files before execution.
+* Specific prompts help produce more relevant answers.
+* Adding context and constraints improves the focus of a response.
+* Comparing different AI tools can reveal differences in explanation and detail.
+* Reliable documentation is essential for checking technical claims.
+* Generated code should be reviewed and tested before execution.
+* Responsibility for the final answer remains with the learner.
 
-AI services should not receive confidential RTL, proprietary design files, restricted EDA documentation, or other sensitive engineering material unless the applicable policies explicitly permit it.
+## 7. Next Steps
 
-## 7. Key Takeaways
-
-* Clear prompts help direct an AI tool toward a specific learning objective.
-* Context and output requirements can make answers more relevant.
-* Comparing multiple explanations can reveal differences in clarity and detail.
-* Official documentation provides an important basis for checking technical claims.
-* AI-generated code must be understood and tested before use.
-* The learner remains responsible for the accuracy of the final work.
-
-## 8. Further Practice
-
-To continue improving my use of AI tools, I will practise asking focused technical questions, compare responses where useful, and verify important statements against reliable references. I will also use AI-generated exercises to strengthen my Python knowledge and explore engineering concepts without relying entirely on generated answers.
+I will continue practising prompt design, use AI-generated exercises to strengthen my Python skills, and check technical explanations against trustworthy references. I also plan to explore how AI can support semiconductor physical-design learning while maintaining independent understanding of the tools and workflows involved.
